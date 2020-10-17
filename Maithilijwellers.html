@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maithili Jwellers</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+       body{
+           color: silver;
+        
+           background: url('ring2.jpg');
+           
+           background-size: cover; 
+           opacity: 1;   
+           
+        
+       }
+       .left{
+           
+        
+           display: inline-block;
+           
+           position: absolute;
+           left: 34px;
+           top: 11px;
+    
+        
+       }
+       .mid{
+           
+           display: block;
+           width: 33%;
+           
+           margin: 5px auto;
+           font-family: oswald;
+           border: 2px solid green
+           background-color: rgba(4, 7, 7, 0.295);
+         
+           
+   
+       }
+       .right{
+        position: absolute;
+           right: 34px;
+           top: 20px;
+           
+        display: inline-block;
+        
+       }
+       .navbar{
+           display: inline-block;
+           
+       }
+       .navbar li{
+    
+           display: inline-block;
+           font-size: 15px;
+        
+       }
+       .navbar li a{
+           color: lavenderblush;
+           text-decoration: none;
+           padding: 10px 10px;
+           
+           
+       }
+       .navbar li a:hover , .navbar li a.active{
+           text-decoration: underline;  
+           color: grey;     
+    
+       }
+      .left img{
+         width: 50px;
+         margin: 0px 25px;
+        
+      }
+      .maithili{
+        padding: 0px 0px;
+        font-style: italic;
+        font-size: 25px;
+        text-align: center;
+      }
+      .btn{
+          margin: 0px 10px;
+        background-color: black;
+        color: white;
+        padding: 2px 5px;
+        border: 1.5px solid grey;
+        border-radius: 5px;
+        font-size: 11px;
+      }
+      .container{
+          text-align: center;
+          border: 3px solid white;
+          padding: 20px 2px;
+          margin: 160px 38px;
+          width: 30%;
+          border-radius: 10px;
+          color: white;
+          background-blend-mode: luminosity;
+          
+          
+      }
+    
+    .formgroup input{
+        text-align: center;
+        display: block;
+        padding: 1px;
+        margin: 3px auto;
+        width: 200px;
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .container button{
+   display: block;
+   width: 45%;
+   margin:auto;
+   background-color: steelblue;
+
+    }
+    </style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div class="maithili">Thakur Ji</div>
+            
+        </div>
+        
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li> 
+                <li><a href="store.html" target="blank">Jwellery Stores</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="contact.html" target="blank">Contact Us</a></li>
+            </ul>
+        </div>
+        
+        <div class="right">
+        <button  class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h2>Best jwellery shop in bihar</h2>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Locality">
+            </div>
+            <button class="btn" >Submit</button>
+        </form>
+</body>
+</html>
